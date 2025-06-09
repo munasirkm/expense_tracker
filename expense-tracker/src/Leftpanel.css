@@ -1,0 +1,18 @@
+.leftpanel-container {
+  display: flex;
+}
+
+.appbar {
+  width: calc(100% - 240px);
+  margin-left: 240px;
+}
+
+.drawer {
+  width: 240px;
+  flex-shrink: 0;
+}
+
+.drawer-paper {
+  width: 240px;
+  box-sizing: border-box;
+}
