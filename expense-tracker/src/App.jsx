@@ -1,15 +1,17 @@
 import React from 'react';
-import Mainpanel from './Mainpanel';
+import Mainpanel from './components/Mainpanel';
 import './App.css';
-import Leftpanel from './Leftpanel';
+import Leftpanel from './components/Leftpanel';
 function App() {
   
 
   return (
-    <div >
-    <div className='leftpanel'><Leftpanel/></div>
+    <div className='app_container'>
+      <div className='main_layout'>
+        <div className='leftpanel'><Leftpanel/></div>
+        <div className='mainpanel'><Mainpanel/></div>
+      </div>
     
-    <div className='mainpanel'><Mainpanel/></div>
     </div>
   )
 }

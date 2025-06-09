@@ -3,7 +3,6 @@ import './Leftpanel.css';
 
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
-import CssBaseline from '@mui/material/CssBaseline';
 import AppBar from '@mui/material/AppBar';
 import List from '@mui/material/List';
 import Divider from '@mui/material/Divider';
@@ -21,7 +20,7 @@ export default function Leftpanel() {
   return (
     <Box className="leftpanel-container">
       
-      <AppBar position="fixed" className="appbar">
+      <AppBar className="appbar">
        
       </AppBar>
 
@@ -32,7 +31,7 @@ export default function Leftpanel() {
         classes={{ paper: 'drawer-paper' }}
       >
         
-        <Divider />
+        
         <List>
           <ListItem disablePadding>
             <ListItemButton>
